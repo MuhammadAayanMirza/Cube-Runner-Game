@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: a2b24e61014fd4dfc8d512b06401df14
+  - enabled: 1
+    path: Assets/Scenes/Character Selection.unity
+    guid: b9e1cfcb4896142419d73c48d158daca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EndTrigger : MonoBehaviour
@@ -7,5 +8,8 @@ public class EndTrigger : MonoBehaviour
     void OnTriggerEnter()
     {
         gameManager.completeLevel();
+        Debug.Log("blah blah");
     }
 }
+
+

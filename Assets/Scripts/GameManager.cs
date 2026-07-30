@@ -5,13 +5,15 @@ public class GameManager : MonoBehaviour
 {
 
     bool gameHasEnded = false;
+
+    bool isPaused = false;
     public float restartDelay = 1f;
     public float nextleveldelay = 2f;
 
+
     public GameObject completeLevelUI;
 
-
-        public void completeLevel ()
+    public void completeLevel ()
     {
         completeLevelUI.SetActive(true);
         Invoke("LoadNextLevel", nextleveldelay);
@@ -39,6 +41,28 @@ public class GameManager : MonoBehaviour
        }
     }
 
+
+     void togglePause()
+    {
+        isPaused = !isPaused;
+        if (isPaused)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            togglePause();
+        }
+
+    }
 
     
 }
