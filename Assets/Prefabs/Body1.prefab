@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6544882633292554305}
   m_Layer: 0
   m_Name: Body1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +105,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7917024055770744747}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 497189f8302e14bc387f9da6db7c09f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovements
   rb: {fileID: 6544882633292554305}
-  forwardForce: 10000
+  forwardForce: 6000
   sidewaysForce: 25
 --- !u!114 &1585957958412546250
 MonoBehaviour:

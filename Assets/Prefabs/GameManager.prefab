@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7143868604551332443}
   - component: {fileID: 4098458504800786155}
-  - component: {fileID: 4812623693605164993}
+  - component: {fileID: -5567450895147455485}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2499315078909833982}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.43045938, y: 0.56098557, z: 0.56098557, w: 0.43045938}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 105}
 --- !u!114 &4098458504800786155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   restartDelay: 1
   nextleveldelay: 2
   completeLevelUI: {fileID: 0}
---- !u!114 &4812623693605164993
+--- !u!114 &-5567450895147455485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,5 +63,4 @@ MonoBehaviour:
   characterPrefabs:
   - {fileID: 4716804146319278464, guid: 55dc7e82331104e66a265ae48b52e45b, type: 3}
   - {fileID: 7917024055770744747, guid: 3495b9e7952b34ca4b6f2b07eddd193d, type: 3}
-  spawnPoint: {fileID: 590284058863771758, guid: 55dc7e82331104e66a265ae48b52e45b, type: 3}
-  label: {fileID: 0}
+  spawnPoint: {fileID: 2496575237228066033, guid: 3495b9e7952b34ca4b6f2b07eddd193d, type: 3}

@@ -8,7 +8,7 @@ public class AttemptCounter : MonoBehaviour
    public TextMeshProUGUI scoreText;
     void Update()
     {
-        float offsetScore = player.position.z +11;
+        float offsetScore = player.position.z +21;
         scoreText.text = offsetScore.ToString("0");
         
     }
