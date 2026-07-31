@@ -7,6 +7,12 @@ public class PlayerMovements : MonoBehaviour
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
 
+    private Vector3 spawnPoint;
+    void Start()
+    {
+        spawnPoint = rb.position;
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -22,7 +28,7 @@ public class PlayerMovements : MonoBehaviour
         rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
        }
 
-        if (rb.position.y < -1f)
+        if (rb.position.y < spawnPoint.y -1f)
         {
             FindAnyObjectByType<GameManager>().EndGame();
         }

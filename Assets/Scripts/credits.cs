@@ -1,12 +1,13 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class credits : MonoBehaviour
 {
 
-    public void Exit()
+    public void Restart()
     {
-        Debug.Log("Exitt");
-        Application.Quit();
+        Debug.Log("Restartt");
+        SceneManager.LoadScene("Menu");
     } 
 
 
