@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     bool gameHasEnded = false;
 
     bool isPaused = false;
-    public float restartDelay = 1f;
+    public float restartDelay = 0.5f;
     public float nextleveldelay = 2f;
 
 
@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     public void completeLevel ()
     {
+        if (gameHasEnded) return;
         completeLevelUI.SetActive(true);
         Invoke("LoadNextLevel", nextleveldelay);
     }
@@ -57,7 +58,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             togglePause();
         }
