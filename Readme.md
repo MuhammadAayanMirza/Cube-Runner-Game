@@ -22,7 +22,7 @@ There are currently 3 levels: </br>
 
 In this level there are rocks as obstacles and the rocks at the
 left and right act as a border which you have to stay within.
-If you collide with them the level restarts from the start.
+If you collide with them the level restarts.
 
 There are various obstacle sizes which you have to dodge to reach the next level.
 
