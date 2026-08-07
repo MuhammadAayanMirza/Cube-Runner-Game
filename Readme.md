@@ -61,4 +61,4 @@ The core game concept and code was learned using ["Brackeys"](https://www.youtub
 
 All the props and 3d models for the game were made by me. 
 
->Made by: [Muhammad Aayan Mirza ✌️](https://github.com/MuhammadAayanMirza) 
+>Made by: [Muhammad Aayan Mirza ](https://github.com/MuhammadAayanMirza)✌️
