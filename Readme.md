@@ -30,8 +30,8 @@ There are various obstacle sizes which you have to dodge to reach the next level
 ![](https://cdn.hackclub.com/019fdbd8-6178-7026-a289-6f7dfd29bb2d/Screenshot%202026-08-07%20at%2015.49.48.png)
 
  This level has snow mounds as obstacles and the ice floor is raised in the air
- so if you fall down the level restarts. It is a bit more challenging than
- the **Water Slide**.
+ so if you fall down the level restarts. It is a bit easier than
+ the **Water Slide** level and acts as a filler level to lead to the more Challenging **Space Slide** level.
 
 
 There is also snow falling when the level is played.
