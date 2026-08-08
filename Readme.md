@@ -37,7 +37,7 @@ There are various obstacle sizes which you have to dodge to reach the next level
 There is also snow falling when the level is played.
 
 ### Space Slide
-![](https://cdn.hackclub.com/019fdbdc-bd33-7b0b-83ea-1df8385d1f64/Screenshot%202026-08-07%20at%2015.53.22.png)
+![](https://cdn.hackclub.com/019fe0e7-5210-7aad-b2b5-72254f744acf/Screenshot%202026-08-08%20at%2015.24.11.png)
 
 This level is the most challenging of them all because it
 has an invisble floor. You have to stay close to the asteroid obstacles to be
